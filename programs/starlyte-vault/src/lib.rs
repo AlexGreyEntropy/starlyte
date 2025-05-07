@@ -257,13 +257,13 @@ pub struct InitializeVault<'info> {
 #[account]
 #[derive(InitSpace)]
 pub struct Vault {
-    pub collateral_amount: u64,      // JitoSOL
-    pub minted_lyteusd: u64,         // debt
-    pub created_at: i64,             // unix timestamp
-    pub cooldown_end: i64,           // Cooldown
-    pub liquidated: bool,            // liquidation status
-    pub liquidation_start: i64,      // Liquidation start
-    pub bump: u8,                    // PDA bump
+    pub collateral_amount: u64,   // JitoSOL
+    pub minted_lyteusd: u64,        // debt
+    pub created_at: i64,        // unix timestamp
+    pub cooldown_end: i64,     // Cooldown
+    pub liquidated: bool,         // liquidation status
+    pub liquidation_start: i64,    // Liquidation start
+    pub bump: u8,                 // PDA bump
 }
 
 // erori
