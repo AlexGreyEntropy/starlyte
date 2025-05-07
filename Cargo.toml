@@ -1,0 +1,16 @@
+[package]
+name = "starlyte-vault"
+version = "0.1.0"
+edition = "2025"
+authors = ["AlexanderGrey contact@getsirius.ai"]
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"
+pyth-sdk-solana = "0.8.0"
+
+[features]
+no-entrypoint = []
