@@ -1,0 +1,8 @@
+[package]
+name = "starlyte-vault"
+version = "0.1.0"
+edition = "2025"
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"
