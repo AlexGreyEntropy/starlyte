@@ -1,0 +1,12 @@
+[programs.devnet]
+starlyte_vault = "lyteGiYQgaLZW2fNNUjYZRNRqjDgXGZAST1endGDxjKP"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 60000 tests/"
