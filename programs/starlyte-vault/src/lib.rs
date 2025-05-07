@@ -20,7 +20,7 @@ pub mod starlyte_vault {
         let vault = &mut ctx.accounts.vault; //rezultat
         let clock = Clock::get()?; //timestap
 /// Verificare 150% collateralization      
-        let required_collateral = mint_amount  //suma create
+        let required_collateral = mint_amount  //suma colateral
             .checked_mul(150) //multiplu
             .and_then(|v| v.checked_div(100)) //formula
             .ok_or(ErrorCode::MathOverflow)?; //rezultat
